@@ -1,0 +1,197 @@
+.reg_frame {
+    min-height: 550px;
+}
+.n-frame {
+    padding: 30px 0 0;
+    /* min-height: 400px; */
+    position: relative;
+}
+.sign_bg{
+    background: #0094e2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.nl-sign-title {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    position: inherit;
+}
+.regbox {
+    width: 340px;
+    line-height: 20px;
+    background: #fff;
+    padding: 10px 20px;
+    position: absolute;
+    margin: auto;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.panel-title2 {
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #666;
+    text-align: left;
+}
+#captcha{
+    height: 37px;
+    background: #7ac23c;
+}
+#nc_1_clickCaptcha{
+    height: 36px;
+    line-height:40px;
+    border: 1px solid yellow;
+    background: #fff;
+    display: none;
+}
+.loginError{
+    top: -3px;
+    color: #ff6f3d;
+}
+.loginError a{
+    color: #0094e2;
+}
+#nc_2_clickCaptcha input{
+    width: 340px;
+    height: 37px;
+}
+/* 短信验证码 */
+input{
+    font-family: hiragino sans gb,microsoft yahei,wenquanyi micro hei,sans-serif;
+}
+#authCodeDiv{
+    /* display: none; */
+}
+#authCodeDiv .enter-area{
+    /* width: 250px; */
+    background: #fff;
+    border: 1px solid #e6e6e6!important;
+}
+.enter-item{
+    padding: 12px 10px;
+    border: 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-appearance: none;
+}
+.remain {
+    margin-left: 8px;
+    vertical-align: middle;
+    background: #fff;
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #e8e8e8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 0;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 110px;
+    text-align: center;
+}
+.remain a {
+    color: #999;
+    cursor: pointer;
+    padding: 0 10px;
+    display: block;
+    font-size: 13px;
+}
+/* 短信错误提示信息 */
+.err_tip{
+    display: none;
+    padding-bottom: 0;
+    margin-top: -10px;
+    margin-left: -48px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.err_tip, .ap_err_tip {
+    color: #ff6f3d;
+}
+.icon_error {
+    background: url(../images/icon_error2.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    margin: 2px 5px 0 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.dx{
+    margin-left: -205px;
+}
+/* 设置密码 */
+/* #phonePasswordDiv{
+    display: none;
+} */
+#phonePasswordDiv .enter-area{
+    z-index: 20;
+}
+/* 下一步、立即提交 按钮 */
+#phoneVerifyButton{
+    margin-top: 35px;
+}
+#phoneRegSubmit{
+    display: none;
+    margin-top: 35px;
+}
+/* #phoneVerifyButton:hover {
+    background: #cbcbcb!important;
+    color: #fff!important;
+    cursor: pointer;
+} */
+.button_next {
+    background: #e0e0e0;
+    /* !important */
+    border: 1px solid #e5e5e5;
+    /* !important */
+    border-radius: 3px;
+    color: #7c7c7c;
+    !important
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.button {
+    margin: 16px 0 0;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button {
+    background: #fff!important;
+    border: 1px solid #e5e5e5!important;
+    color: #7c7c7c!important;
+    display: block;
+    -moz-appearance: none;
+}
+.orange {
+    background: 0;
+    border: 0;
+    background: #e91206!important;
+    color: #fff!important;
+    border: 1px solid #e91206!important;
+}

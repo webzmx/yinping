@@ -1,0 +1,71 @@
+{
+    "host":[
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011742580327447.jpg"},
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201809/201809031049000473449.jpg"}
+    ],
+    "hostp":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201801191737350392845.png","title":"下单立减150元 大振膜 音色温暖","desc1":"品质录音人气套装","desc2":"￥3447.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/201810101617520966661.png","title":"整套立减78元 即插即用免驱动","desc1":"新手入门性价比套装","desc2":"￥399.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201706/201706291618250631462.jpg","title":"稳定性能 效果出色","desc1":"艾肯Utrack VST声卡","desc2":"￥1099.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201509/20150905162850067328.jpg","title":"手持麦克风 声音真实自然","desc1":"Blue EN CORE 300","desc2":"￥1849.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201703/201703141124420041212.jpg","title":"买一送六 高品质入门吉他","desc1":"芬达 CD-60民谣吉他","desc2":"￥999.00"}
+    ],
+	"floor1":[
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011620360476162.jpg"},
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011716150814622.jpg"},
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011621040079494.jpg"},
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011716460823232.jpg"},
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011759000001293.jpg"},
+        {"imgsrc":"https://img.ingping.com/images/ad_images/201811/201811011641070432681.jpg"}
+    ],
+    "0":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201810112044470154704.png","title":"颜值与性能兼具 操作简单","desc1":"性价比录音配置","desc2":"￥2549.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/201810201354390672879.png","title":"通道多 性能强 声音无失真","desc1":"中小型录音室高配优选","desc2":"￥64648.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201210/201210151800330696190.jpg","title":"出色之音 多指向性","desc1":"爱科技C414XLII麦克风","desc2":"￥7199.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201302/201302171628060440418.jpg","title":"钢琴手感 即插即用","desc1":"Oxygen 88 MIDI键盘","desc2":"￥4599.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201806/201806111833250611632.jpg","title":"7寸近场监听 聆听范围宽阔","desc1":"亚当 T7V有源监听音箱","desc2":"￥2299.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201608/201608021802370328928.jpg","title":"便携小巧 超强性能","desc1":"RME Babyface Pro声卡","desc2":"￥5449.00"}
+    ],
+    "1":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201810101617060303797.png","title":"颜值与实力并存","desc1":"粉丝暴涨神器","desc2":"￥2739.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/201810111017430986227.png","title":"性能稳定 高品质多音效","desc1":"主播必备推荐套装","desc2":"￥1399.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201711/201711221713260909594.jpg","title":"高灵敏度 自然清澈","desc1":"Blue Yeti麦克风","desc2":"￥1088.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201707/201707180925450712950.jpg","title":"带麦克风 1080P全高清视频","desc1":"罗技 C920主播摄像头","desc2":"￥588.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201706/20170629155816088799.jpg","title":"高品质音效 内置DSP效果器","desc1":"雅马哈UR242声卡","desc2":"￥1398.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201807/201807142022310796479.jpg","title":"封闭式 宽频响大动态声音表现","desc1":"得胜HD5800监听耳机","desc2":"￥399.00"}
+    ],
+    "2":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201810101742380522768.png","title":"功能众多 噪音低 便携","desc1":"小型户外演出套装 ","desc2":"￥4425.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/20181010174502045056.png","title":"灵活性强 音色细腻自然","desc1":"户外演出手机直播套装","desc2":"￥5491.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201502/20150227114755029746.jpg","title":"15寸有源 大功率 带压缩器","desc1":"山逊Auro X15D舞台音箱","desc2":"￥3558.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201408/201408131456590427692.jpg","title":"16路 模拟效果器 幻象电源供电","desc1":"雅马哈MG16XU调音台","desc2":"￥3199.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201312/201312021204390594321.jpg","title":"双通道手持无线麦克风 音质出色","desc1":"舒尔BLX288/PG58","desc2":"￥3899.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201601/201601151103170590200.jpg","title":"数字效果清晰及细致 适用现场","desc1":"TC ElectronicM2000","desc2":"￥7199.00"}
+    ],
+    "3":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201809031050570500887.png","title":"云端下载 手机点歌","desc1":"BMB品牌KTV套装","desc2":"￥16749.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/201809112044040526202.png","title":"性能高 演唱人声饱满","desc1":"JBL品牌KTV套装","desc2":"￥21852.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201711/201711201814590803677.jpg","title":"21.5寸 落地式 3T容量","desc1":"雷客惊艳Note一体机","desc2":"￥2999.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201301/201301181938060107619.jpg","title":"高水准音质 噪声低 坚固耐用","desc1":"雅马哈KMA-1080功放","desc2":"￥3249.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201807/201807121609220807696.jpg","title":"蓝牙遥控点歌 云曲库 内置WI-FI","desc1":"视易K20S点歌机","desc2":"￥1250.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201707/201707121735040518254.jpg","title":"三分频系统 覆盖更多空间","desc1":"雅马哈KMS-3100音箱","desc2":"￥6448.00"}
+    ],
+    "4":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201706282038030947906.png","title":"稳定 易使用 耐用 价格经济","desc1":"TAMA IP52KH6","desc2":"￥5979.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/201810101646200063495.png","title":"61键 考级用琴 插U盘","desc1":"雅马哈KB-290电子琴","desc2":"￥2369.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201505/201505141439270592233.jpg","title":"枫木指板 手感好 性价比高","desc1":"芬达0133002327电吉他 ","desc2":"￥6499.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201508/201508171623480571291.jpg","title":"26寸单板云杉 配送包","desc1":"TomTUT-680M尤克里里 ","desc2":"￥879.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/20181010164304007447.png","title":"键盘控制器 简单快捷 ","desc1":"诺维逊LaunchpadPro","desc2":"￥2579.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201401/201401241048470029674.jpg","title":"轻便小巧 折卸简单 表现力丰富","desc1":"罗兰 TD-4KP电子鼓","desc2":"￥4539.00"}
+    ],
+    "5":[
+        {"imgsrc":"//img.ingping.com/images/template/product/201706282039560722502.png","title":"声场宽阔 抗干扰 防啸叫","desc1":"得胜 多媒体会议套装","desc2":"￥9826.00"},
+        {"imgsrc":"//img.ingping.com/images/template/product/2018070619143802690.png","title":"全方位环绕音质组合","desc1":"JBL 家庭影院套装","desc2":"￥16380.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201411/201411051852260468181.jpg","title":"鹅颈式无线 一拖二 高传真音质","desc1":"咪宝ACT-300会议麦克风","desc2":"￥6199.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201309/201309101552500216496.jpg","title":"便携式 可换咪头 同期6轨录音","desc1":"ZOOM H6数字录音机","desc2":"￥2599.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201807/201807261058100660645.jpg","title":"耳放/前级切换功能 可立式摆放","desc1":"旷世CMA400i解码器","desc2":"￥4879.00"},
+        {"imgsrc":"//img.ingping.com/images/product/M/201602/201602261753080853214.jpg","title":"低音强劲 丰富细腻的声音","desc1":"舒尔 SE215 HI-FI耳塞","desc2":"￥779.00"}
+    ]
+    
+    
+}

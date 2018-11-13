@@ -1,0 +1,235 @@
+body #top,body #header{
+  background-color: #fff;
+}
+.top-myingping ul li a{
+  font-size: 14px;
+}
+.allbtn .allclass .txt a{
+  font-size: 12px;
+}
+
+#top .top-login .welcome{
+  font-size: 14px;
+}
+#top .top-login span a{
+  font-size: 14px;
+}
+.header-nav-bar .allbtn .allclass{
+  height:496px;
+}
+.telephone li p{
+  font-size: 12px;
+}
+.content-wrap{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.activity-area{
+  height:36px;
+}
+.activity-area a{
+font-size: 12px;
+}
+.activity-area span{
+  line-height: 36px;
+  height: 36px;
+  font-size: 12px;
+}
+.sp1 a{
+  color: #333333;
+}
+.sp1 a:hover{
+  color:#ff6600;
+}
+.sp2{
+  color:#999999;
+}
+.sp3 a{
+  color:#999999;
+}
+.lsn-wrap{
+width: 100%;
+}
+.lsn-write{
+height: 50px;
+padding:0 10px;
+line-height: 50px;
+font-weight: 700;
+font-size: 20px;
+background-color: white;
+}
+.lsn-write span{
+color: #666;
+font-weight: 100;
+font-size: 12px;  
+}
+.lsn-list{
+margin-top: 15px;
+}
+.lsn-list li{
+float: left;
+overflow: hidden;
+background-color: white;
+margin:0 3.5px 30px 3.5px;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,.2)
+
+}
+.lsn-list li:hover{  
+color:#ff6600;
+-webkit-box-shadow: 0 9px 20px rgba(153, 147, 147, 0.2);  
+}
+.lsn-hoverImg{
+position: absolute;
+top: 0;
+left: 0;
+}
+.lsn-list li:hover .lsn-img img{
+  -webkit-transform:scale(1.1); /*为Chrome/Safari*/
+  -moz-transform:scale(1.1); /*为Firefox*/
+  -ms-transform:scale(1.1); /*为IE*/
+  -o-transform:scale(1.1); /*为Opera*/
+  transform:scale(1.1);
+}
+.lsn-img span{
+position: absolute;
+top: 0;
+left: 0;
+width: 73px;
+font-size: 12px;
+height:18px;
+text-align:center;
+color:white;
+background-color: #ff6600;
+}
+.lsn-cover{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height:100%;
+opacity: 0;
+z-index: 19;
+background-color: #000;
+transition:opacity 1s;
+}
+.lsn-list li:hover .lsn-cover{  
+  opacity:0.7;
+}
+.lsn-toButton{
+position: absolute;
+color:white;
+font-size: 18px;
+line-height: 44px;
+text-align: center;
+top:50%;
+left:50%;
+margin-left: -70px;
+margin-top: -22px;
+width:140px;
+height:44px;
+border:1px solid white;
+border-radius: 2px;
+}
+.lsn-list li a h3{
+margin:0 5px;
+border-bottom: 1px solid #eee;
+color: #333333; 
+}
+.lsn-list li a h3 span{
+display: block;
+padding:15px 0;
+font-size: 16px;
+font-weight: 700;
+vertical-align: middle;
+overflow:hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.lsn-desc{
+padding:10px;
+color:#666;
+height:50px;
+line-height: 20px;
+font-size: 12px;
+}
+.lsn-active-time{
+margin:10px;
+color:#999;
+font-size: 12px;
+}
+.lsn-active-time i{
+margin-right: 5px;
+font-size: 16px;
+}
+.lsn-active-time span{
+margin:0 3px;
+color:#999;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1466349724'); /* IE9*/
+  src: url('iconfont.eot?t=1466349724#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1466349724') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1466349724') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1466349724#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon {
+  font-family:"iconfont" !important;
+  font-size:12px;
+  font-style:normal;
+}
+
+@media(min-width:1230px){
+.content{
+  width: 1200px;
+  margin: 0 auto;                     
+}
+.lsn-img img{
+width: 393px;
+height: 177px;
+-webkit-transition:all 1s; /*为Chrome/Safari*/
+-moz-transition:all 1s; /*为Firefox*/
+-ms-transition:all 1s; /*为IE*/
+-o-transition:all 1s; /*为Opera*/
+transition:all 1s;
+}
+.lsn-img{
+position: relative;
+width: 393px;
+height:177px;
+overflow: hidden;
+}
+.lsn-list li a h3 span{
+width: 373px;
+}
+.lsn-list li:hover h3 span{
+color:#ff6600;
+}
+.lsn-desc{
+width: 373px;
+}
+}
+@media(max-width:1230px){
+.content{
+  width: 990px;
+  margin: 0 auto;                        
+}
+.lsn-img img{
+width: 320px;
+height: 144px;
+transition:all 1s;
+}
+.lsn-img{
+position: relative;
+width: 320px;
+height:144px;
+overflow:hidden;
+}
+.lsn-list li a h3 span{
+width: 300px;
+}
+.lsn-desc{
+width: 300px;
+}
+}
+/* 以上是中间内容部分修饰 */

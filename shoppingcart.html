@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="./css/shoppingcart.css">
+</head>
+
+<body>
+    <div id="top" class="topNav">
+        <div class="container">
+            <dl class="tnLeft">
+                <dd class="welcome">
+                    <h5>
+                        <span id="login_info" style="color: #666;font-weight: normal;font-family: Microsoft YaHei">您好！欢迎来到音平商城！</span>
+                        <span id="user_info" style="font-weight: normal;font-family: Microsoft YaHei">[<a name="t-login"
+                                href="javascript:login();" class="track" rel="nofollow">请登录</a> | <a name="t-register"
+                                href="javascript:register();" class="track" rel="nofollow">免费注册</a>]</span>
+                    </h5>
+                </dd>
+            </dl>
+            <dl class="tnRight">
+                <dd class="first-dd">
+                    <h3>
+                        <a class="dd-a" href="">
+                            <i class="iconfont"></i>
+                            我的音平
+                            <em></em>
+                        </a>
+                    </h3>
+                    <ul>
+                        <li><a href="//www.ingping.com/tranManagement/orderList/">我的订单</a></li>
+                        <li><a href="//www.ingping.com/tranManagement/myFavorite/">我的收藏</a></li>
+                        <li><a href="//www.ingping.com/memberComment/productCommentList/">我要评价</a></li>
+                        <li><a href="//www.ingping.com/serviceCenter/myCoupons/">我的优惠券<span id="isNoUseCount">0</span></a></li>
+                    </ul>
+                </dd>
+                <dd>
+                    <h3>
+                        <a class="dd-a" href="https://jx.tmall.com/">
+                            <i class="iconfont"></i>
+                            我的购物车
+
+                        </a>
+                    </h3>
+                    <span class="num shopping_amount">0</span>
+                </dd>
+                <dd>
+                    <h3>
+                        <a class="dd-a" href="">
+                            <i class="iconfont"></i>
+                            企业采购
+
+                        </a>
+                    </h3>
+                </dd>
+                <dd class="last-dd">
+                    <h3>
+                        <a class="dd-a" href="" style="color:#ff6600">
+                            <img style="" src="images/onlinekefu-1.0.3.gif" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                            客服服务
+                            <em></em>
+                        </a>
+                    </h3>
+                    <div class="telephone">
+                        <div class="repair_body">
+                            <div class="mail">
+                                <img class="imgs" src="images/ingge-1.0.1.png" alt="">
+                                <div class="texts-r">
+                                    <p class="clearfix"><a id="kf_top" class="kefu fr" href="javascript:void(0)"
+                                            onclick="NTKF.im_openInPageChat('kf_9501_1485050005896')" rel="nofollow">在线客服</a></p>
+                                    <p class="text-r c-666">在线时间：08:30 - 23:00</p>
+                                </div>
+                            </div>
+                            <div class="mobile">
+                                <div class="clearfix">
+                                    <div class="fl">
+                                        <div style="width: 60px"><i class="iconfont"></i></div>
+                                    </div>
+                                    <div class="fl">
+                                        <p><span>400 700 3638</span></p>
+                                        <p class="c-666">服务时间：08:30 - 23:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wechat">
+                                <div class="clearfix">
+                                    <div class="fl wechat-icon" style="width:60px">
+                                        <img src="images/wechat-icon-1.0.0.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                                    </div>
+                                    <div class="fl wechat-word">
+                                        <p>微信客服</p>
+                                        <p>扫一扫</p>
+                                    </div>
+                                    <div class="fl wechatqr">
+                                        <img src="images/wechatqr-1.0.0.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div id="shoppingcart" class="pt-10 clearfix">
+        <div class="shopcententbg">
+            <div class="docHeadWrap clearfix">
+                <h1>
+                    <a id="logo" href="//www.ingping.com/" title="音平商城">
+                        <img alt="音平商城" src="images/logo.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                    </a>
+                </h1>
+                <div class="shoppingprocess cart_icon1 ico_cart">
+                    <ul>
+                        <li class="shopprocess_td1 pro_current">1 我的购物车</li>
+                        <li class="shopprocess_td1 pro_other">2 确认订单信息</li>
+                        <li class="shopprocess_td1 pro_other">3 成功提交订单</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="cartbox">
+                <div class="m-nocart">
+                    <div class="wrap">
+                        <p>购物车里空空如也，赶紧去&nbsp;<a style="color: #38d;" href="homepage.html">逛逛吧&gt;</a></p>
+                        <p>或者您可以先进行&nbsp;<a style="color: #38d;" href="javascript:login();">登录&gt;</a></p>
+                    </div>
+                </div>
+                <div class="cart_TxtBox mt-20">
+                    <div class="hd">
+                        <ul>
+                            <li class="onn">猜您喜欢</li>
+                            <li class="onn">浏览记录</li>
+                        </ul>
+                    </div>
+                    <div class="bd cart-slide">
+                        <ul class="rest-slide clearfix">
+                            <li class="first-li newRecomItemWrap"><img src="images/like2.jpg" alt="">
+                                <p class="itemTitle"> <a class="protitle" href="//item.ingping.com/673.html" title="纽曼(Neumann) 德国进口 U87 Ai 电容式录音麦克风 "
+                                        target="_blank">德国进口 U87 Ai 电容式录音麦克风 </a> </p>
+                                <div class="itemInfo clearfix">
+                                    <p class="price"><span class="symbol">¥</span>22999.00</p>
+                                </div>
+                                <a id="gtm_cart_addToCart_673" pid="673" price="22999.00" href="//www.ingping.com/shoppingCart/addToCart/?goodsid=690"
+                                    class="btn-append"><b></b>加入购物车</a>
+                            </li>
+                            <li class="newRecomItemWrap"><img src="images/like1.jpg" alt="">
+                                <p class="itemTitle"> <a class="protitle" href="//item.ingping.com/809.html" title="舒尔(SHURE) SM58s 动圈式出色人声话筒"
+                                        target="_blank">SM58s 动圈式出色人声话筒</a> </p>
+                                <div class="itemInfo clearfix">
+                                    <p class="price"><span class="symbol">¥</span>699.00</p>
+                                </div>
+                                <a id="gtm_cart_addToCart_673" pid="673" price="22999.00" href="//www.ingping.com/shoppingCart/addToCart/?goodsid=690"
+                                    class="btn-append"><b></b>加入购物车</a>
+                            </li>
+                            <li class="newRecomItemWrap"><img src="images/like3.jpg" alt="">
+                                <p class="itemTitle"> <a class="protitle" href="//item.ingping.com/871.html" title="罗德(RODE) 澳大利亚进口 NT1-A 电容式录音麦克风十年保修"
+                                        target="_blank">澳大利亚进口 NT1-A 电容式录音麦克风十年保修</a> </p>
+                                <div class="itemInfo clearfix">
+                                    <p class="price"><span class="symbol">¥</span>699.00</p>
+                                </div>
+                                <a id="gtm_cart_addToCart_673" pid="673" price="22999.00" href="//www.ingping.com/shoppingCart/addToCart/?goodsid=690"
+                                    class="btn-append"><b></b>加入购物车</a>
+                            </li>
+                            <li class="newRecomItemWrap"><img src="images/olauhot12.jpg" alt="">
+                                <p class="itemTitle"> <a class="protitle" href="//item.ingping.com/1368.html" title="艾肯(iCON) CUBE 4Nano VST电脑录音K歌外置声卡"
+                                        target="_blank">CUBE 4Nano VST电脑录音K歌外置声卡</a> </p>
+                                <div class="itemInfo clearfix">
+                                    <p class="price"><span class="symbol">¥</span>699.00</p>
+                                </div>
+                                <a id="gtm_cart_addToCart_673" pid="673" price="22999.00" href="//www.ingping.com/shoppingCart/addToCart/?goodsid=690"
+                                    class="btn-append"><b></b>加入购物车</a>
+                            </li>
+                            <li class="newRecomItemWrap"><img src="images/olauhot8.jpg" alt="">
+                                <p class="itemTitle"> <a class="protitle" href="//item.ingping.com/1798.html" title="客所思(XOX) KX-2 传奇版 电脑K歌外置USB声卡"
+                                        target="_blank">KX-2 传奇版 电脑K歌外置USB声卡</a> </p>
+                                <div class="itemInfo clearfix">
+                                    <p class="price"><span class="symbol">¥</span>699.00</p>
+                                </div>
+                                <a id="gtm_cart_addToCart_673" pid="673" price="22999.00" href="//www.ingping.com/shoppingCart/addToCart/?goodsid=690"
+                                    class="btn-append"><b></b>加入购物车</a>
+                            </li>
+                        </ul>
+                        <ul class="rest-slide clearfix">
+                            <li class="first-li newRecomItemWrap firstItemWrap"><img src="images/olauhot8.jpg" alt="">
+                                <p class="itemTitle"> <a class="protitle" href="//item.ingping.com/1798.html" title="客所思(XOX) KX-2 传奇版 电脑K歌外置USB声卡"
+                                        target="_blank">KX-2 传奇版 电脑K歌外置USB声卡</a> </p>
+                                <div class="itemInfo clearfix">
+                                    <p class="price"><span class="symbol">¥</span>699.00</p>
+                                </div>
+                                <a id="gtm_cart_addToCart_673" pid="673" price="22999.00" href="//www.ingping.com/shoppingCart/addToCart/?goodsid=690"
+                                    class="btn-append"><b></b>加入购物车</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sc_box clearfix">
+                    <div class="cart_about clearfix">
+                        <div class="cart_about_title">关于 "我的购物车"</div>
+                        <div class="i cart_about_word">
+                            <p>
+                                ·为方便您提交订单，您添加至"我的购物车"中已经选择的、尚未提交订单的商品清单，我们将为您保留一段时间。<br>
+                                ·在商品保留期间，您所选择商品的价格、优惠政策、库存、配送时间等信息可能会有所变化，请以网页信息为准。<br>
+                            </p>
+                            <p> &nbsp;&nbsp;您在购物过程中有任何疑问，请查阅 <a href="//www.ingping.com/help.html" target="_blank">
+                                    帮助中心</a></p>
+                        </div>
+                        <div class="fr">
+                            <p>您对订购商品或流程有问题</p>
+                            <a id="kf_cart" href="javascript:void(0)" onclick="NTKF.im_openInPageChat('kf_9501_1485050005896')"
+                                rel="nofollow" class="cart-service"><i class="iconfont f-22 mr-5"></i><span>专业客服导购</span></a>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="yp-info">
+        <div class="container">
+            <p class="f-16 c-fff">
+                <b>音平商城 —— 大型正品音乐设备网购商城</b>
+            </p>
+            <p class="mt-10 lh-22">增值电信业务经营许可证：
+                <a href="//www.ingping.com/help/detail/37/7" target="_blank" rel="nofollow">粤B2-20110237</a> / <a href="http://www.miitbeian.gov.cn"
+                    target="_blank" rel="nofollow">粤ICP备11032710号-1</a> /
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44130202000152" target="_blank"
+                    rel="nofollow">粤公网安备
+                    44130202000152号</a>
+                <br>
+                <span>©</span> 2011-2018 音平公司版权所有，并保留所有权利（<a href="//www.ingping.com/help/detail/138/7/" rel="nofollow"
+                    target="_blank">著作权及商标声明</a>）。
+                特聘律师团：广东斯明律师事务所
+            </p>
+            <div class="yp-ico mt-10">
+                <a href="http://wljg.gdgs.gov.cn/corpsrch.aspx?key=441300000136165" rel="nofollow" target="_blank"
+                    title="惠州音平电声科技股份有限公司"><img alt="工商红盾电子标识" src="images/bz_gshd-1.0.2.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></a>
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=2011052700100009101&amp;ct=df&amp;pa=752919" rel="nofollow"
+                    target="_blank" title="可信网站示范单位"><img alt="可信网站示范单位" src="images/bz_sfdw-1.0.2.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></a>
+                <a href="//www.ingping.com/article/articleDetail/2952/" rel="nofollow" target="_blank" title="广东省电子商务示范企业"><img
+                        alt="广东省电子商务示范企业" src="images/bz_sfqy-1.0.2.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></a>
+                <a href="http://www.anquan.org/authenticate/cert/?site=www.ingping.com&amp;at=realname" rel="nofollow"
+                    target="_blank" title="安全联盟 实名认证"><img alt="安全联盟 实名认证" width="96px" height="35px" src="images/bz_smrz-1.0.2.png"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></a>
+            </div>
+        </div>
+    </div>
+    <div class="mui-mbar-tabs">
+        <div class="quick_link_main toggle clearfix">
+            <div class="quick_links_panel">
+                <div class="quick_links" id="quick_links">
+                    <div class="father">
+                        <a href="//www.ingping.com/home/index/" controller="member" action="index" class="my_qlinks"
+                            base="//www.ingping.com">
+                            <i class="setting"></i>
+                        </a>
+                        <div class="ibar_login_box status_login">
+                            <div class="avatar_box clearfix">
+                                <p class="avatar_imgbox">
+                                    <img src="images/no-img_mid_-1.0.0.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                                </p>
+                                <ul class="user_info">
+                                    <li>用户名：<span class="user_name"></span></li>
+                                    <li>级&nbsp;别：<span class="user_rate"></span></li>
+                                </ul>
+                            </div>
+                            <div class="login_btnbox">
+                                <a href="//www.ingping.com/tranManagement/orderList/" class="login_order">我的订单</a>
+                                <a href="//www.ingping.com/tranManagement/myFavorite/" class="login_favorite">我的收藏</a>
+                            </div>
+                            <i class="icon_arrow_white"></i>
+                        </div>
+                    </div>
+                    <div class="father">
+                        <a href="javascript:void(0)" onclick="NTKF.im_openInPageChat('kf_9501_1485050005896')" rel="nofollow"><i
+                                class="kfzx"></i>
+                        </a>
+                        <div class="telephone" id="telephone2">
+                            <div class="telephone">
+                                <div class="repair_body">
+                                    <div class="mail">
+                                        <img class="imgs" src="images/ingge-1.0.1.png" alt="">
+                                        <div class="texts-r">
+                                            <p class="clearfix"><a id="kf_top" class="kefu fr" href="javascript:void(0)"
+                                                    onclick="NTKF.im_openInPageChat('kf_9501_1485050005896')" rel="nofollow">在线客服</a></p>
+                                            <p class="text-r c-666">在线时间：08:30 - 23:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="mobile">
+                                        <div class="clearfix">
+                                            <div class="fl">
+                                                <div style="width: 60px"><i class="iconfont"></i></div>
+                                            </div>
+                                            <div class="fl">
+                                                <p><span>400 700 3638</span></p>
+                                                <p class="c-666">服务时间：08:30 - 23:00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wechat">
+                                        <div class="clearfix">
+                                            <div class="fl wechat-icon" style="width:60px">
+                                                <img src="images/wechat-icon-1.0.0.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                                            </div>
+                                            <div class="fl wechat-word">
+                                                <p>微信客服</p>
+                                                <p>扫一扫</p>
+                                            </div>
+                                            <div class="fl wechatqr">
+                                                <img src="images/wechatqr-1.0.0.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <i class="icon_arrow_white"></i>
+                        </div>
+
+                    </div>
+                    <div id="shopCart" class="father">
+                        <a href="#" class="message_list"><i class="message"></i>
+                            <div class="div">购物车</div><span class="cart_num shopping_amount">0</span>
+                        </a>
+                    </div>
+                    <div class="father">
+                        <a href="//www.ingping.com/tranManagement/myAccount/" class="history_list my_qlinks">
+                            <i class="view"></i>
+                        </a>
+                        <div class="mp_tooltip">我的资产<i class="icon_arrow_right_black"></i></div>
+                    </div>
+                    <div class="father">
+                        <a href="//www.ingping.com/suggest/index/" class="complain_list">
+                            <img class="edit-default" style="display: block;" src="images/edit_index-1.0.0.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                            <img class="edit-over" src="images/edit_over-1.0.0.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                        </a>
+                        <div class="mp_tooltip">投诉建议<i class="icon_arrow_right_black"></i></div>
+                    </div>
+                </div>
+                <div class="quick_toggle">
+                    <div class="qrcode_li">
+                        <a href="javascript:void(0);">
+                            <i class="mpbtn_qrcode"></i>
+                        </a>
+                    </div>
+                    <div class="return_top_li">
+                        <a href="#top" class="return_top" style="">
+                            <i class="top"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="quick_links_pop"></div>
+        </div>
+    </div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script src="./js/shoppingcart.js"></script>
+
+</html>

@@ -1,0 +1,841 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.clearfix:after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+#top{
+    width: 100%;
+    height:36px;
+    border-bottom: 1px solid #EDEEF0;
+}
+.container{
+    color:#ddd;
+    line-height: 36px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.tnLeft{
+    float: left;
+}
+.tnRight{
+    float: right;
+}
+.tnRight dd{
+    height: 37px;
+    border: 1px solid transparent;
+}
+.tnRight dd:hover{
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+.tnRight .first-dd:hover ul{
+    display: block;    
+}
+.tnRight dd h3{
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tnRight dd:hover .dd-a{
+    color: #ff6600;
+}
+.tnRight h3 a{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    color:#666;
+    line-height: 36px;
+}
+.topNav dd {
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+.topNav a{
+    text-decoration: none;
+}
+.track{
+    color: #ff6600;
+    padding: 8px 5px;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfont-1.0.3.eot');
+    /* IE9*/
+    src: url('iconfont-1.0.3.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont-1.0.3.woff') format('woff'), /* chrome, firefox */
+    url('../fonts/iconfont-1.0.3.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-1.0.3.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 36px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.topNav dd h3 a em {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 13px;
+    background: url(../images/topNav_icon-1.0.0.png) 0 0px no-repeat;
+}
+img, input, select {
+    vertical-align: middle;
+    display: inline-block;
+}
+.topNav .num {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    display: inline-block;
+    padding: 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #ff6600;
+    border-radius: 7px 7px 7px 0;
+    min-width: 12px;
+    text-align: center;
+    font-family: Arial,Verdana,"\5b8b\4f53";
+}
+.topNav dd ul {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 35px;
+    right: -1px;
+    z-index: 8;
+    border: 1px solid #eaeaea;
+    border-top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+    list-style: none;
+}
+.topNav dd ul li {
+    line-height: 37px;
+    border-top: 1px solid #eaeaea;
+    padding-left:20px;
+}
+.topNav dd ul li:hover a{
+    color: #ff6600;
+}
+.topNav dd ul li:hover{
+    background-color: #f1f1f1;
+}
+.topNav dd ul li a{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    color:#666;
+    line-height: 36px;
+}
+.topNav dd ul li a span {
+    color: #FF8400;
+    margin-left: 5px;
+}
+.topNav .tnRight dd .telephone{
+    display: none;
+    position: absolute;
+    width: 245px;
+    top: 36px;
+    right: 0;
+    z-index: 8;
+    border: 1px solid #eaeaea;
+    border-top: 0;
+    background: #fff;
+}
+.tnRight .last-dd:hover .telephone{
+    display: block;
+}
+.repair_body .mail {
+    border-bottom: 1px solid #eaeaea;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    position: relative;
+    height: 135px;
+}
+.imgs {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.texts-r {
+    position: absolute;
+    top: 55px;
+    right: 25px;
+}
+.repair_body .mail p {
+    line-height: 18px;
+    padding: 5px 0;
+}
+.repair_body .kefu {
+    display: block;
+    color: #fff;
+    border: 1px solid #ff6600;
+    border-radius: 20px;
+    width: 80px;
+    height: 29px;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    background: #ff6600;
+    float: right;
+}
+.c-666{
+    color: #666;
+    text-align: right;
+}
+.repair_body .mobile {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    height: 40px;
+}
+.fl {
+    float: left;
+}
+.repair_body .mobile i, .repair_body .mobile em {
+    font-size: 42px;
+    color: #777;
+    top: 0;
+    left: 10px;
+    position: relative;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.repair_body .mobile p {
+    line-height: 18px;
+}
+.repair_body .mobile p span {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff6600;
+    margin-bottom: 5px;
+}
+.repair_body .wechat {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-top: 1px solid #e9e9e8;
+    padding-left: 15px;
+}
+.repair_body .wechat .wechat-icon{
+    margin-top: 22px;
+}
+.repair_body .wechat .wechat-word {
+    margin-top: 22px;
+    color: #959595;
+    line-height: 20px;
+}
+.repair_body .wechat .wechatqr{
+    margin-left: 22px;
+}
+#shoppingcart{
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#shoppingcart .ico_cart {
+    float: right;
+    width: 662px;
+    height: 35px;
+    display: inline;
+    margin-top: 30px;
+    background-image: url(../images/ico_20140721-1.0.0.png);
+    background-repeat: no-repeat;
+}
+.shopcententbg .docHeadWrap{
+    /* width: 220px; */
+}
+.shopcententbg .docHeadWrap h1{
+    width: 220px;
+    float: left;
+    vertical-align: middle;
+}
+.docHeadWrap {
+    position: relative;
+    zoom: 1;
+    height: 100px;
+    margin: 0 auto;
+}
+#shoppingcart .shoppingprocess .shopprocess_td1.pro_current {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+} 
+ #shoppingcart .shoppingprocess .shopprocess_td1 {
+    width: 218px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    list-style: none;
+}
+/* ========================购物商品部分================================= */
+.m-nocart {
+    position: relative;
+    font-size: 16px;
+    height: 218px;
+    background: url(../images/cartIcon-1.0.0.png) 336px 91px no-repeat;
+}
+.m-nocart .wrap {
+    font-family: "Microsoft YaHei";
+    position: absolute;
+    left: 396px;
+    top: 95px;
+}
+/* -================猜你喜欢和浏览记录部分======================= */
+.cart_TxtBox .hd {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+/* .cart_TxtBox .hd ul li.on {
+    height: 50px;
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+} */
+.cart_TxtBox .hd ul li {
+    float: left;
+    height: 50px;
+    padding: 0 35px;
+    font-size: 16px;
+    cursor: pointer;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* ---------------猜你喜欢部分------------------------------------ */
+.rest-slide{
+    display: none;
+}
+.newRecomItemWrap {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 184px;
+    height: 315px;
+    border: 1px solid #eaeaea;
+    list-style: none;
+    font-family: "Microsoft YaHei";
+}
+.first-li{
+    margin-left: 0; 
+}
+.newRecomItemWrap img{
+    width: 100%;
+}
+.newRecomItemWrap .itemTitle {
+    margin-bottom: 9px;
+    padding: 0 15px;
+    height: 40px;
+    overflow: hidden;
+}
+.newRecomItemWrap .itemTitle a {
+    
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    word-break: break-all;
+    text-decoration: none;
+}
+.newRecomItemWrap .itemInfo {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.newRecomItemWrap .itemInfo .price {
+    line-height: 14px;
+    color: #ff6600;
+    font-size: 14px;
+    font-weight: 300;
+}
+.btn-append {
+    display: block;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    width: 102px;
+    padding: 0 0;
+    border: 1px solid #999;
+    color: #666;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+/* ===============以下是foot“关于”我的购物车=================================== */
+.cart_about {
+    color: #959595;
+    border: solid 1px #eee;
+    border-top: solid 2px #999999;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.cart_about_word{
+    float: left;
+}
+.cart_about_word {
+    margin-top: 15px;
+    margin-left: 40px;
+    line-height: 24px;
+}
+.fr{
+    float:right;
+}
+.cart_about a {
+    color: #36c;
+}
+#kf_cart{
+    display: block;
+    border: 1px solid #ff6600;
+    color: #ff6600;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.cart_about_title{
+    font-weight: 800;
+
+}
+/* ======================finaly======================================= */
+.yp-info {
+    background: #333;
+    color: #a4a4a4;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+.c-fff{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.mt-10{
+    line-height: 22px;
+    margin-top: 10px;
+    color: #a4a4a4;
+}
+.mt-10 a {
+    color: #a4a4a4;
+}
+.mt-10 span{
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+/* =================右边购物车部分=================================== */
+.mui-mbar-tabs{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 300;
+    height: 100%;
+}
+.quick_link_main{
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 330px;
+    height: 100%;
+    background-color: red;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.toggle{
+    right:-300px;
+}
+.quick_links_panel{
+    width: 30px;
+    height: 100%;
+    background-color: #333;
+    float: left;
+}
+#quick_links_pop{
+    width: 300px;
+    height: 100%;
+    float: left;
+    background-color: pink;
+}
+.quick_links {
+    width: 30px;
+    height: 315px;
+    /* background-color: #36c; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -190px;
+    background: #333;
+    z-index: 200;
+    width: 30px;
+}
+
+.quick_links .father{
+    width: 30px;
+    height: 38px;
+    position: relative;
+}
+.quick_links .father:hover {
+    background: #ff6600;
+}
+.quick_links .father:hover .setting{
+    background-position: -33px 0;
+}
+.quick_links .father:hover .kfzx{
+    background-position: -33px -175px;
+}
+.quick_links .father:hover .message{
+    background-position: -33px -29px;
+}
+.quick_links .father:hover .view{
+    background-position: -33px -57px;
+}
+.quick_links .edit-default{
+    display: block;
+}
+.quick_links .edit-over{
+    display: none;
+}
+.quick_links .father:hover .edit-default{
+    display: none;
+}
+.quick_links .father:hover .edit-over{
+    display: block;
+}
+/* .quick_links_panel a, .quick_links_panel a:visited {
+    display: block;
+    line-height: 200px;
+    width: 30px;
+    height: 38px;
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 12px;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+    z-index: 200;
+    margin: 0;
+    padding: 0;
+} */
+.quick_links .father a i{
+    display: block;
+    background: url(../images/ibar_sprites-1.0.1.png) no-repeat;
+    cursor: pointer;
+    height: 19px;
+    width: 18px;
+    vertical-align: top;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+}
+.quick_links .father a  .kfzx{
+    background-position: 0 -175px;
+}
+#shopCart{
+    height: 132px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+.quick_links a{
+    text-decoration: none;
+}
+.quick_links .father a  .message{
+    display: block;
+    background: url(../images/ibar_sprites-1.0.1.png) no-repeat;
+    cursor: pointer;
+    height: 19px;
+    width: 20px;
+    vertical-align: top;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-position: 0px -29px;
+}
+a.message_list .div {
+    width: 16px;
+    display: block;
+    height: 48px;
+    font-size: 13px;
+    margin: 38px 0 0 8px;
+    cursor: pointer;
+    color: #fff;
+}
+.quick_links a.message_list .cart_num {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background: #ff6600;
+    text-align: center;
+    line-height: 21px;
+    margin: 9px 0 0 6px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+}
+.quick_links .father a  .view{
+    background-position: 0 -57px;
+}
+/* .quick_links_panel a{
+    display: block;
+    line-height: 200px;
+    width: 30px;
+    height: 38px;
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 12px;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+    z-index: 200;
+    margin: 0;
+    padding: 0;
+} */
+.complain_list img {
+    width: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    top: 8px;
+    left: 5px;
+}
+.quick_links_panel .quick_toggle {
+    width: 30px;
+    /* height: 76px; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    background:#333;
+    z-index: 1;
+}
+.quick_toggle div {
+    width: 30px;
+    height: 38px;
+    position: relative;
+    display: block;
+}
+
+.quick_toggle i {
+    display: inline-block;
+    background: url(../images/ibar_sprites-1.0.1.png) no-repeat;
+    cursor: pointer;
+    height: 19px;
+    width: 18px;
+    vertical-align: top;
+    position: absolute;
+}
+.quick_toggle .mpbtn_qrcode {
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    left: 6px;
+    background-position: 0 -302px;
+}
+.quick_toggle .return_top_li{
+    display: none;
+}
+.quick_toggle .top {
+    background-position: 0 -201px;
+    width: 17px;
+    height: 14px;
+    top: 12px;
+    left: 7px;
+}
+.quick_toggle div:hover{
+    background: #ff6600;
+}
+.quick_toggle div:hover .mpbtn_qrcode{
+    background-position:0  -321px;
+}
+.quick_toggle div:hover .top{
+    background-position:-33px  -201px;
+}
+
+.father .ibar_login_box {
+    width: 265px;
+    height: 190px;
+    padding: 10px;
+    font-size: 12px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);
+            box-shadow: 0 0 3px rgba(0,0,0,.3);
+    border-radius: 2px 0 0 2px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    z-index: 200;
+    top: 0px;
+    right:30px;
+    display: none;
+}
+.ibar_login_box .icon_arrow_white {
+    background: url(../images/ibar_sprites-1.0.1.png) no-repeat;
+    position: absolute;
+    right: -5px;
+    top: 15px;
+    width: 5px;
+    height: 9px;
+    background-position: 0 -253px;
+}
+.ibar_login_box .avatar_box {
+    overflow: hidden;
+    height: 120px;
+}
+.ibar_login_box .avatar_box p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.ibar_login_box .avatar_imgbox {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 6px 20px 0 5px;
+    display: inline;
+    list-style: none;
+}
+.status_login .user_info {
+    overflow: hidden;
+    color: #333;
+    padding-top: 30px;
+    line-height: 24px;
+    width: 120px;
+    float: left;
+    list-style: none;
+}
+.ibar_login_box .login_btnbox {
+    border-top: 1px dotted #d5d5d5;
+    overflow: hidden;
+    padding-top: 15px;
+    clear: both;
+}
+.ibar_login_box .login_btnbox a {
+    width: 94px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid;
+    color: #333;
+    text-decoration: none;
+    float: left;
+    background: #fff;
+    border-color: #e9e9e9;
+}
+.ibar_login_box .login_btnbox a:hover{
+    border: 1px solid #ff6600;
+}
+.father:hover .ibar_login_box{
+    display: block;
+}
+#telephone2{
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    display: none;
+    width: 245px;
+    z-index: 8;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    font-size: 12px;
+    height: 340px;
+}
+.father:hover #telephone2{
+    display: block;
+}
+#telephone2 .icon_arrow_white {
+    background: url(../images/ibar_sprites-1.0.1.png) no-repeat;
+    position: absolute;
+    right: -5px;
+    top: 15px;
+    width: 5px;
+    height: 9px;
+    background-position: 0 -253px;
+}
+.quick_links_panel .mp_tooltip {
+    height: 38px;
+    line-height: 38px;
+    width: 92px;
+    position: absolute;
+    z-index: 2;
+    left: -121px;
+    top: 0;
+    background: #444851;
+    color: #d8d8d8;
+    text-align: center;
+    visibility: hidden;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    -webkit-transition: left 0.4s;
+    -ms-transition: left 0.4s;
+    -o-transition: left 0.4s;
+    transition: left 0.4s;
+}
+.father:hover .mp_tooltip{
+    visibility: visible;
+    left: -92px;
+}
+.quick_links_panel .icon_arrow_right_black {
+    background: url(../images/ibar_sprites-1.0.1.png) no-repeat;
+    position: absolute;
+    right: -5px;
+    top: 15px;
+    width: 5px;
+    height: 9px;
+    background-position: 0 -234px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+

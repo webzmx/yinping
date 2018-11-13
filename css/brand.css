@@ -1,0 +1,153 @@
+body #top,body #header{
+    background-color: #fff;
+}
+.top-myingping ul li a{
+font-size: 14px;
+}
+.allbtn .allclass .txt a{
+font-size: 12px;
+}
+.header-nav-bar .allbtn .allclass{
+height:496px;
+}
+
+#top .top-login .welcome{
+font-size: 14px;
+}
+
+.telephone li p{
+    font-size: 12px;
+}
+#top .top-login span a{
+    font-size: 14px;
+}
+.content-wrap{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.brand-zone{
+    height:36px;
+}
+.brand-zone a{
+    font-size: 12px;
+  }
+.brand-zone span{
+    line-height: 36px;
+    height: 36px;
+}
+.sp1 a{
+    color: #333333;
+}
+.sp1 a:hover{
+    color:#ff6600;
+}
+.sp2{
+    color:#999999;
+}
+.sp3 a{
+    color:#999999;
+}
+.hot{
+    width: 100%;
+}
+.hC-brand{       
+   /* padding:0 0 0 40px; */
+   background-color: white;
+}
+.hC-brand span{
+   float: left;
+   padding: 5px 8px;
+   background-color: #666666;
+   color: white;
+   margin:34px 12px 0 0;  
+   font-size: 12px;
+}
+.hC-brand-list{
+    padding: 35px 0 17px 0;         
+}
+.hC-brand-list li{
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 8px;
+    margin: 0 12px 14px 0;
+    cursor:pointer;
+    font-size: 12px;
+}
+.hC-brand-icon li{
+   float: left;
+   padding:10px 0;
+   margin-right: 11.428px;
+   margin-bottom: 11px;
+   margin-top: 12px;
+   background-color: white;
+}
+.hC-brand-icon li:hover{
+    -webkit-box-shadow: 0 9px 20px rgba(153, 147, 147, 0.2);  
+}
+.hC-brand-icon li:hover p{  
+    color:#ff6600;  
+}
+.hC-brand-icon li img{
+   padding:0 20px;
+}
+.hC-brand-icon li p{
+   text-align: center;
+   width: 100px;
+   margin:0 auto;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   font-size: 12px;
+}
+.hC-brand-icon li.lifin{
+   margin-right: 0;
+}
+.classify-active{
+    background-color: #ff6600;
+    color:white;
+}
+.hot-active{
+    background-color: #ff6600;
+    color:white;
+}
+@media(min-width:1300px){
+.content{
+    width: 1200px;
+    margin: 0 auto;  
+}
+.hC-brand{
+    padding: 0 0 0 26px;
+}
+.hC-brand-icon{
+    width: 1212px;
+}
+}
+@media(min-width:1230px) and (max-width:1300px){
+.content{
+    width: 1060px;
+    margin: 0 auto;  
+}
+.hC-brand{
+    padding: 0 0 0 32px;
+    width: 1018px;
+}
+.hC-brand-icon{
+    width: 1060px;
+}
+}
+@media(max-width:1230px){
+.content{
+    width: 912px;
+    margin: 0 auto;  
+}
+.hC-brand{
+    padding: 0 0 0 26px;
+    width: 872px;
+}
+.hC-brand-icon{
+    width: 922px;
+}
+}
+/* 以上是中间内容部分修饰 */
+

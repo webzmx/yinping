@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>音师傅 - 中国音频行业O2O模式开创者</title>
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/yshifu.css">
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/layui.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="yshifu_top">
+        <div class="top_nav">
+            <ul class="yshifu_logo">
+                <img src="images/logo-1.0.0.png" alt="">
+            </ul>
+            <ul class="top_nav_l cleafix">
+                <li><a href="#">预约师傅</a></li>
+                <li><a href="###">工程案例</a></li>
+                <li class="te_nav">
+                    <a href="###">
+                        <img src="images/jiantou_hover-1.0.0.png" alt="">
+                        特色服务
+                    </a>
+                    <div class="tsfw">
+                        <a href="homepage.html">音平商城</a>
+                        <a href="zixun.html">音平资讯</a>
+                        <a href="#">音平乐享</a>
+                        <a href="homepage.html">超级音雄</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="top_nav_r cleafix">
+                <li><a href="login.html">登录</a><span>|</span></li>
+                <li><a href="register.html">注册</a></li>
+                <li><a href="homepage.html"><i class="iconfont icon-weixin"></i>关注我们</a>
+                    <img src="images/ysf-wx-1.0.0.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <div class="grid w-1280 cl">
+            <div class="yuyue">
+                <p class="c-secondary">提交预约，坐等师傅报价</p>
+                <select name="select" id="select">
+                    <option value="1">选择服务项目</option>
+                    <option value="2">声卡调试安装封</option>
+                    <option value="3">家庭影院安装</option>
+                    <option value="4">KTV音响设计</option>
+                    <option value="4">会议系统设计</option>
+                    <option value="4">演出调音调光</option>
+                    <option value="4">各类乐器培训</option>
+                    <option value="4">各类音响维修</option>
+                    <option value="4">混音后期处理</option>
+                </select>
+                <select name="select" id="select">
+                    <option value="1">选择服务方式</option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </select>
+                <p><a href="#" class="btn btn-danger">马上预约</a></p>
+                <p id="fuwu">请选择服务项目</p>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容 -->
+    <div class="content">
+        <div class="cont">
+            <div class="ruzhu cleafix">
+                <a href="###" class="reg">免费入驻</a>
+            </div>
+            <!-- 新闻滚动 -->
+            <div class="news">
+                <div class="layui-carousel" id="test1">
+                    <div carousel-item>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;3小时前 来自广州市的顾客 189XXXX3357 预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;8小时前 来自惠州市的顾客 134XXXX4085 预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;10小时前 来自郑州市的顾客 139XXXX0378 预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;17小时前 来自深圳市的顾客 170XXXX2021预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;17小时前 来自杭州的顾客186XXXX0807预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;1天前 来自北京市的顾客 158XXXX2202预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;1天前 来自桂林市的顾客 134XXXX6983预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;1天前 来自哈尔滨市的顾客 133XXXX8266预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;18个小时前 来自黄冈市的顾客 135XXXX1891 预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;6个小时前 来自郑州市的顾客 189XXXX6866 预约了声卡调试服务</div>
+                        <div><img src="images/xiaoxi.png" alt="">&nbsp;&nbsp;&nbsp;1天前 来自广州市的顾客 135XXXX1490 预约了混音后期处理</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 师傅推荐 -->
+            <div class="tuijian cleafix">
+                <h1>师傅推荐</h1>
+                <a href="###">更多师傅></a>
+            </div>
+            <div class="tj_tab cleafix">
+                <ul class="list">
+                    <li><a href="#show1" class="list_a">全部分类</a></li>
+                    <li><a href="#show1" class="list_a">声卡调试安装</a></li>
+                    <li><a href="#show2" class="list_a">家庭影院安装</a></li>
+                    <li><a href="#show3" class="list_a">KTV音响设计</a></li>
+                    <li><a href="#show4" class="list_a">会议系统设计</a></li>
+                    <li><a href="#show5" class="list_a">演出调音调光</a></li>
+                    <li><a href="#show6" class="list_a">各类乐器培训</a></li>
+                    <li><a href="#show7" class="list_a">各类音响维修</a></li>
+                    <li><a href="#show8" class="list_a">混音后期处理</a></li>
+                </ul>
+                <ul class="shows">
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201511101740550771627.png" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="homepage.html">音平技术团队</a><em><img src="images/icon_jp-1.0.0.png"
+                                                    alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">惠州市</p>
+                                        <p>威望2709</p>
+                                    </div>
+                                </div>
+                                <div class="c2">官方免费提供的艾肯MOBILEU声卡免费普通调试服，服务期限从预约当天开始算3个月内有效，官方调音师通过电脑远程操作，主要处理MOBILEU声卡驱动安装、导入默认效果，指导声卡及效果软件的基本运用操作等，不精调。</div>
+                                <div class="c3"><span>907</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>100%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201612062242540591704.png" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">何师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">云浮市</p>
+                                        <p>威望1480</p>
+                                    </div>
+                                </div>
+                                <div class="c2">9年网络K歌声卡经验。根据你电脑性能。设备。整体优化配搭出调试最合适你个人较佳效果。擅长各种大型宿主</div>
+                                <div class="c3"><span>362</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>80%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201705020404300303652.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">朱师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">兰州市</p>
+                                        <p>威望149</p>
+                                    </div>
+                                </div>
+                                <div class="c2">专业调试 各种K歌声卡，根据个人声音调试 【各种声卡精调试】
+                                    (包含喊麦闪避/不闪避,唱歌,电音,回音,爆音,电话音,主持,聊天效果,音乐环绕,变音,人声环绕回音,炫音)（winXP win7 win8 32 64位
+                                    64位系统）</div>
+                                <div class="c3"><span>33</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201510091242410841619.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">王师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p>威望10</p>
+                                    </div>
+                                </div>
+                                <div class="c2">创新、客所思、艾肯、玛雅等各类内置、外置声卡、量声定制效果、SAM机架精准调试、通过QQ或其他远程软件，远程安装调试服务，不提供上门服务</div>
+                                <div class="c3"><span>11</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201507301712430341184.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">陈师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">惠州市</p>
+                                        <p>威望59</p>
+                                    </div>
+                                </div>
+                                <div class="c2">用心调试！不喜欢吹嘘，只想为了爱唱歌的你，值得拥有更好的效果！</div>
+                                <div class="c3"><span>6</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>80%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201705020404300303652.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">朱师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">兰州市</p>
+                                        <p>威望149</p>
+                                    </div>
+                                </div>
+                                <div class="c2">专业调试 各种K歌声卡，根据个人声音调试 【各种声卡精调试】
+                                    (包含喊麦闪避/不闪避,唱歌,电音,回音,爆音,电话音,主持,聊天效果,音乐环绕,变音,人声环绕回音,炫音)（winXP win7 win8 32 64位
+                                    64位系统）</div>
+                                <div class="c3"><span>33</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/20150815110402073123.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">陈师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">东莞市</p>
+                                        <p>威望27</p>
+                                    </div>
+                                </div>
+                                <div class="c2">专注KTV音响、酒吧音响，家庭影院、多功能厅音响、排练厅音响、会议室音响、教学音响、影院音响、舞台音响批发、工程安装及调试培训。</div>
+                                <div class="c3"><span>5</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201508141734520634275.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">罗师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">广州市</p>
+                                        <p>威望56</p>
+                                    </div>
+                                </div>
+                                <div class="c2">广州唱野致力于：家庭娱乐KTV制作方案/安装/售后服务等，专业KTV设计/安装/维护等，会议系统设计/安装/调试/维护等，各类演出设计/安装/调试/现场维护等，全国音频产品维修/声卡调试安装，广州所有音频产品上门安装/上门故障检修，</div>
+                                <div class="c3"><span>24</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/20150815110402073123.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">陈师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">东莞市</p>
+                                        <p>威望27</p>
+                                    </div>
+                                </div>
+                                <div class="c2">专注KTV音响、酒吧音响，家庭影院、多功能厅音响、排练厅音响、会议室音响、教学音响、影院音响、舞台音响批发、工程安装及调试培训。</div>
+                                <div class="c3"><span>5</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                                <li>
+                                        <div class="c1 cleafix">
+                                            <div class="bor">
+                                                <img src="images/20150815110402073123.jpg" alt="">
+                                            </div>
+                                            <div class="p1_1">
+                                                <p><a href="###">陈师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                                <p><img src="images/icon-02-1.0.0.png" alt="">东莞市</p>
+                                                <p>威望27</p>
+                                            </div>
+                                        </div>
+                                        <div class="c2">专注KTV音响、酒吧音响，家庭影院、多功能厅音响、排练厅音响、会议室音响、教学音响、影院音响、舞台音响批发、工程安装及调试培训。</div>
+                                        <div class="c3"><span>5</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>60%</span></div>
+                                        <div class="starts cleafix">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star.png" alt="">
+                                            <img src="images/star.png" alt="">
+                                        </div>
+                                        <div class="btn_block"><a href="###">预约TA</a></div>
+                                    </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201508071729110542775.bmp" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">叶师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p><img src="images/icon-02-1.0.0.png" alt="">惠州市</p>
+                                        <p>威望32</p>
+                                    </div>
+                                </div>
+                                <div class="c2">音炫琴行成立于2013年6月，店址位于惠州陈江，琴行主打吉他、架子鼓、电子琴、钢琴。我们专业的师资力量将为您提供专业的教学服务，价格实惠，让所有想学乐器的朋友能够学有所成！</div>
+                                <div class="c3"><span>2</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>100%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                                <li>
+                                        <div class="c1 cleafix">
+                                            <div class="bor">
+                                                <img src="images/201612062242540591704.png" alt="">
+                                            </div>
+                                            <div class="p1_1">
+                                                <p><a href="###">何师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                                <p><img src="images/icon-02-1.0.0.png" alt="">云浮市</p>
+                                                <p>威望1480</p>
+                                            </div>
+                                        </div>
+                                        <div class="c2">9年网络K歌声卡经验。根据你电脑性能。设备。整体优化配搭出调试最合适你个人较佳效果。擅长各种大型宿主</div>
+                                        <div class="c3"><span>362</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>80%</span></div>
+                                        <div class="starts cleafix">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star2.png" alt="">
+                                            <img src="images/star.png" alt="">
+                                        </div>
+                                        <div class="btn_block"><a href="###">预约TA</a></div>
+                                    </li>
+                        </ul>
+                    </li>
+                    <li class="show">
+                        <ul class="con_list cleafix">
+                            <li>
+                                <div class="c1 cleafix">
+                                    <div class="bor">
+                                        <img src="images/201511021435550298616.jpg" alt="">
+                                    </div>
+                                    <div class="p1_1">
+                                        <p><a href="###">朱师傅</a><em><img src="images/icon_jp-1.0.0.png" alt=""></em></p>
+                                        <p>威望42</p>
+                                    </div>
+                                </div>
+                                <div class="c2">歌曲后期制作.翻唱歌曲后期处理 .混音，对干声进行各项处理： 降噪处理.  EQ均衡 . 动态压缩.  混响处理.  修音准.  人生激励   母带处理.最终使人声处于正确的声场和空间.融合伴奏.对响度.音色.动态进行创造性的调整.使人声乐曲浑然一体.媲美一张真正的唱片.</div>
+                                <div class="c3"><span>8</span> 次预约&nbsp;&nbsp;&nbsp;服务满意度 <span>80%</span></div>
+                                <div class="starts cleafix">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star2.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                </div>
+                                <div class="btn_block"><a href="###">预约TA</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- 友情链接 -->
+            <div class="y_homelink cleafix">
+                <ul class="yshifu_homelink">友情链接:</ul>
+                <ul class="y_homelink_r cleafix">
+                    <li><a href="###">音平商城</a></li>
+                    <li><a href="###">原创翻唱</a></li>
+                    <li><a href="###">音平资讯</a></li>
+                    <li><a href="###">音师傅手机版</a></li>
+                    <li><a href="###">音师傅</a></li>
+                    <li><a href="###">超级音雄</a></li>
+                    <li><a href="###">MobileU免费调试</a></li>
+                    <li><a href="###">Mobile6免费调试</a></li>
+                    <li><a href="###">声卡调试</a></li>
+                    <li><a href="###">声卡推荐</a></li>
+                    <li><a href="###">工程案例</a></li>
+                    <li><a href="###">日本化妆品</a></li>
+                    <li><a href="###">网络K歌声卡</a></li>
+                    <li><a href="###">网络K歌设备</a></li>
+                    <li><a href="###">家庭KTV设备</a></li>
+                    <li><a href="###">舞台演出设备</a></li>
+                    <li><a href="###">会议系统设备</a></li>
+                    <li><a href="###">家庭影院设备</a></li>
+                    <li><a href="###">家庭影院安装</a></li>
+                    <li><a href="###">查看更多+</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="yshifu_foot">
+        <p><a href="homepage.html">关于我们 | 联系我们</a></p>
+        <strong><a href="homepage.html"><span>音师傅</span></a> - 音平旗下音频服务交易平台</strong>
+        <p>©2011-2018音师傅版权所有。粤B2-20110237 | 粤ICP备11032710号 | 粤工商备P131712007950 | 粤公网安备 44130202000150号</p>
+        <p>特聘律师团：广东斯明律师事务所</p>
+    </div>
+    <!-- 返回顶部 -->
+    <div class="back">
+        <a href="" class="floatmenu_qq">
+            <p>QQ客服</p>
+        </a>
+        <a href="" class="floatmenu_weixin"></a>
+        <a href="" class="floatmenu_fanhui">
+            <p>返回顶部</p>
+        </a>
+    </div>
+</body>
+<script src="js/jquery.1.11.3.min.js"></script>
+<script src="js/yshifu.js"></script>
+<script src="layui/layui.js"></script>
+<script>
+    layui.use('carousel', function(){
+          var carousel = layui.carousel;
+          //建造实例
+          carousel.render({
+            elem: '#test1'
+            ,width: '100%' //设置容器宽度
+            // ,height:'20px'
+            ,autoplay:'true'
+            ,interval:2000
+            ,arrow:'none'
+            ,anim: 'updown' //切换动画方式
+          });
+        });
+</script>
+</html>

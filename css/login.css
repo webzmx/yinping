@@ -1,0 +1,318 @@
+.layout {
+    min-height: 880px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.g-doc {
+    position: relative;
+    min-height: 100%;
+}
+.login-header {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 20px;
+}
+.login-header .container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.login-header .container .login-logo {
+    float: left;
+    width: 200px;
+}
+.login-msg{
+    text-align: center;
+    width: 800px;
+    height: 27px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border: 1px solid;
+    border-color: #ffb4a8;
+    background: #fef2f2;
+    line-height: 5px;
+    padding: 0 10px;
+    overflow: hidden;
+    color: #6C6C6C;
+}
+.login-msg p{
+    float: none;
+    width: auto;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 12px;
+}
+.login-header .container .login-items {
+    float: right;
+    margin-top: 2px;
+    margin-right: 47px;
+}
+.login-header .container .login-items ul {
+    list-style-type: none;
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.login-header .container .login-items li {
+    list-style: none;
+    float: left;
+    width: 125px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+/* ==================nl-content =======================*/
+.nl-content {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 580px;
+}
+.nl-content .content-bg {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.nl-content .content-bg a{
+    background-image: url(../images/login-content-bg.jpg)
+}
+.nl-content .content-bg a {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+.login-panel {
+    width: 350px;
+    float: right;
+    margin-right: 18%;
+    height: 100%;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+}
+@media screen and (max-width: 1290px){
+    .login-panel {
+        width: 35%;
+        float: right;
+        margin-right: 3%;
+        height: 100%;
+        position: relative;
+    }
+}
+.nl-login-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 12%;
+}
+@media screen and (max-width: 1290px){
+    .nl-frame-container {
+        height: 75%;
+        top: 50px;
+    }
+}
+.nl-frame-container {
+    text-align: left;
+    background: #fff;
+    height: 440px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.ng-form-area {
+    margin-left: 0;
+    margin: 0 auto;
+}
+.ng-form-area {
+    display: block!important;
+    width: 80%;
+    padding-top: 10px;
+    position: relative;
+}
+.panel-title {
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #666;
+}
+.shake-area, .code-enter-item {
+    margin-bottom: 14px;
+}
+.shake-area {
+    position: relative;
+}
+.enter-area {
+    position: relative;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #e6e6e6!important;
+}
+.enter-item {
+    background: #fff;
+    width: 92%;
+    line-height: 20px;
+    padding: 12px 10px;
+    border: 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-appearance: none;
+}
+.placeholder {
+    left: 12px;
+}
+.placeholder, .error-tip {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.placeholder {
+    font-style: normal;
+    color: #c2c2c2;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    zoom: 1;
+}
+.hide {
+    visibility: hidden;
+    font-size: 12px;
+}
+.err_tip, .ap_err_tip {
+    color: #ff6f3d;
+}
+.err_tip {
+    margin-top: -12px;
+    overflow: hidden;
+    display: none;
+}
+.icon_error {
+    background: url(../images/icon_error.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    margin: 2px 5px 0 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: text-top;
+    _background-image: none;
+}
+.loginError{
+    font-size: 12px;
+    position: relative;
+    top: -6px;
+    left: -5px;
+}
+.ng-foot {
+    height: 18px;
+    margin-top: 16px;
+}
+.ng-link-area {
+    text-align: right;
+    color: #999;
+    position: relative;
+    float: right;
+    text-align: right;
+}
+.ng-link-area a {
+    color: #999;
+    font-size: 12px;
+}
+.forget{
+    /*margin-top: -15px;*/
+    margin-left: 78%;
+}
+.forget a{
+    color: #999;
+    font-size: 12px;
+}
+.forget a:hover{
+    color: #ff7e00;
+}
+.button{
+    margin: 16px 0 0;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.orange{
+    background: #e91206!important;
+    color: #fff!important;
+    border: 1px solid #e91206!important;
+}
+.ng-foot{
+    height: 18px;
+    margin-top: 16px;
+}
+.link_login{
+    float: right;
+}
+.link_login li{
+    float: left;
+    margin-left: 8px;
+}
+.first_li{
+    color: #999;
+    font-size: 14px;
+}
+.white{
+    background: #fff!important;
+    color: #7c7c7c!important;
+    border: 1px solid #e5e5e5!important;
+}
+/* 关于我们 联系我们 */
+.nl-footer {
+    text-align: center;
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    width: 100%;
+    font-size: 12px;
+    color: #ddd;
+}
+.nl-f-nav {
+    margin-bottom: 10px;
+}
+.nl-f-nav a {
+    display: inline-block;
+    color: #919191;
+    padding: 0 6px;
+    line-height: 1.5;
+}
+.nl-f-nav em {
+    color: #ddd;
+    font-style: normal;
+}
+.nl-f-copyright {
+    text-align: center;
+    color: #999;
+    line-height: 2.2;
+    font-size: 12px;
+    margin-top: 708px;
+}

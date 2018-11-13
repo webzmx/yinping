@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>音平账号 - 注册</title>
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/verify.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="layout">
+        <div class="g-doc">
+            <div class="login-header">
+                <div class="container">
+                    <div class="login-logo">
+                        <a href="homepage.html">
+                            <img src="images/ingping-1.0.0.png" alt="">
+                        </a>
+                    </div>
+                    <div class="login-items">
+                        <ul>
+                            <li>
+                                <a href="homepage.html">
+                                    <img src="images/ingpingmall-1.0.0.png" alt="">
+                                </a>
+                                <span>
+                                    <img src="images/xiegang-1.0.0.png" alt="">
+                                </span>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/ingpingzixun-1.0.0.png" alt="">
+                                </a>
+                                <span>
+                                    <img src="images/xiegang-1.0.0.png" alt="">
+                                </span>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/yingshifu-1.0.0.png" alt="">
+                                </a>
+                                <span>
+                                    <img src="images/xiegang-1.0.0.png" alt="">
+                                </span>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/ingpinglexiang-1.0.0.png" alt="">
+                                </a>
+                                <span>
+                                    <img src="images/xiegang-1.0.0.png" alt="">
+                                </span>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/ingpingzhidao-1.0.0.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="nl-content">
+                <div class="sign_bg">
+                    
+                </div>
+                <div class="n-frame device-frame reg_frame">
+                    <h1 class="nl-sign-title">
+                        <span>一个账号，玩转所有音平服务</span>
+                    </h1>
+                    <div class="regbox">
+                        <div class="panel-title2">注册账号</div>
+                        <div class="slideTxtBox">
+                            <form action="" id="sign" method="post" onsubmit="return false">
+                                <div class="shake-area" style="z-index:30">
+                                    <div id="phoneNumDiv">
+                                        <!-- 手机号 -->
+                                        <div> 
+                                            <div class="enter-area">
+                                                <input type="text" class="enter-item" id="phoneNum" name="phoneNum" autocomplete="off" placeholder="请输入你的手机号码">
+                                            </div>
+                                            <!-- 错误提示信息 -->
+                                            <div class="err_tip" id="phoneNum1">
+                                                <div class="dis_box">
+                                                    <em class="icon_error"></em>
+                                                    <span id="phoneNumError"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 短信验证码 -->
+                                        <div id="authCodeDiv">
+                                            <div class="enter-area">
+                                                <input style="display:none">
+                                                <input type="text" class="enter-item" id="authCode" name="authCode" autocomplete="off" placeholder="请输入手机短信验证码or666666" > <!--onblur="checkAuthCode('authCode')" -->
+                                                <span class="remain">
+                                                    <a href="" onclick="reSendRegMsg()" class="color333 send-status" rel="nofollow">获取验证码</a>
+                                                </span>
+                                            </div>
+                                            <!-- 短信错误提示信息 -->
+                                            <div id="authCodeError" class="err_tip">
+                                                <div class="dis_box dx">
+                                                    <em class="icon_error"></em>
+                                                    <span id="authCodeError1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 设置密码 -->
+                                        <div id="phonePasswordDiv">
+                                            <div class="enter-area">
+                                                <!-- <input type="password" style="display:none"> -->
+                                                <input type="password" class="enter-item" id="phonePassword" name="phonePassword" placeholder="请设置6-20位登录密码" > <!--onblur="checkPassword('phonePassword')" -->
+                                            </div>
+                                            <!-- 密码错误提示 -->
+                                            <div class="err_tip" id="phonePasswordErrorDiv">
+                                                <div class="dis_box">
+                                                    <em class="icon_error"></em>
+                                                    <span id="phonePasswordError"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 滑块验证 -->
+                                    <div id="mpanel1" >
+                                    </div>
+                                    <!-- 下一步点击按钮 注册按钮-->
+                                    <input type="button" id="phoneVerifyButton" value="下一步" disabled="disabled" class="button_next">
+                                    <input type="button" id="phoneRegSubmit" value="立即注册" disabled="disabled" class="button orange">
+                                    <a href="login.html" class="button btn1" rel="nofollow">已有账号，去登录</a>    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 关于我们 联系我们 -->
+        <div class="nl-footer">
+            <a href="###">关于我们 </a>
+            <em>&nbsp;|&nbsp;</em>
+            <a href="###"> 联系我们</a>
+        </div>
+        <p class="nl-f-copyright">
+            <span class="nl-f-text">增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号-1</span>
+            <br>
+            © 2011-2017 音平公司版权所有
+            <span class="nl-f-text">，并保留所有权利（著作权及商标声明）。</span>
+        </p>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.1.11.3.min.js"></script>
+<script type="text/javascript" src="js/verify.js" ></script>
+<script src="js/register.js"></script>
+</html>

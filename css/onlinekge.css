@@ -1,0 +1,961 @@
+body #top,body #header{
+    background-color: #fff;
+}
+.top-myingping ul li a{
+    font-size: 14px;
+}
+.allbtn .allclass .txt a{
+font-size: 12px;
+}
+#top .top-login .welcome{
+    font-size: 14px;
+}
+#top .top-login span a{
+    font-size: 14px;
+}
+.header-nav-bar .allbtn .allclass{
+height:496px;
+}
+.telephone li p{
+    font-size: 12px;
+}
+#con_view{
+    position: relative;
+    overflow: hidden;
+}
+#con_banner{
+    width: 13000px;
+    height: 100%;
+    overflow: hidden;
+}
+#con_banner img{
+    
+    /* height: 100%; */
+    display: block;
+    float: left;
+}
+#con_banner_list{
+    position:absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -167.5px;
+    height: 11px;
+
+}
+#con_banner_list li{
+    float: left;
+    margin:0 7px;
+    width:53px;
+    height:7px;
+    background-color: rgba(255,255,255,.6)
+}
+
+
+/* 以上是无缝滚动轮播部分修饰 */
+.content-wrap{
+    width:100%;
+    background-color: #633ef1;
+}
+.content{
+    margin:0 auto;
+    padding:0 5px;
+}
+.content img{
+    display: block;
+}
+.olgo-wrap{
+    height: 240px;
+    padding-top: 30px;
+}
+.olgo li{
+    float: left; 
+    position: relative;
+    height: 240px; 
+    transition: all 0.6s;
+    background-color: white;
+    cursor: pointer;
+}
+.olgo-title{
+    color:#333;
+    text-align: center;
+    margin-top: 25px;
+}
+.olgo-go{
+    color:white;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border:2px solid white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    display: none;
+}
+.olgo-go:hover{
+    background-color: white;   
+}
+.olgo-go a{
+    width: 80px;
+    height: 36px;
+    font-size: 26px;
+    display: block;
+    color:white;
+}
+.olgo-go a:hover{   
+    color:#08d19d;
+}
+.olgo-item{
+    color:white;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    display: none;
+}
+.olgo li img{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.olgo li.olgo-active{ 
+    background-color: #08d19d;
+}
+.olgo li.olgo-active .olgo-title{
+    text-align: left;
+    margin-left: 20px;
+    color:white;
+}
+.olgo li.olgo-active .olgo-go{
+    display:block;
+}
+.olgo li.olgo-active .olgo-item{
+    display:block;
+}
+/* 以上是电脑K歌直播部分中go部分修饰 */
+.bz li a.mr{
+    margin-right:0;
+}
+.bz{
+    height: 102px;
+    padding:35px 0;
+}
+.bz li a{
+    float: left;
+    margin-right: 15px;
+}
+/* 专业大平台部分修饰 */
+.olpic{
+    width: 100%;
+    padding-bottom: 45px;
+}
+.olpic-1 .img1{
+    float: left;
+    margin-bottom: 10px;
+}
+.olpic-1 .img2{
+    float: right;
+    margin-bottom: 10px;
+}
+/* 以上是直播上面两张图的修饰 */
+.olpic-2 a{
+    color:white;
+    font-size: 13px;
+}
+.olpic-2 .img1,.olpic-2 .img2{   
+    position: relative;
+    margin-bottom: 10px;
+}
+.olpic-2 .img1{
+    float: left;
+}
+.olpic-2 .img2{
+    float: right;
+}
+.olpic-2 .imgcom .playbtn{
+    position: absolute;
+    left:20px;
+    border-radius: 20px;
+    background-color: #ff7b9c;
+    padding:0 10px;
+}
+.olpic-2 .imgcom .playbtn img{
+    float: left;
+    width: 50px;
+    height: 30px;
+}
+.olpic-2 .imgcom .playbtn .player{
+    float: right;
+}
+.olpic-2 .imgcom .pricebtn{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #633ef1;
+    line-height: 45px;
+    height: 45px;
+    width: 205px;
+    padding:0 5px;
+    border-radius: 5px; 
+}
+.olpic-2 .imgcom .pricebtn .newprice{
+    float: left;
+    font-size: 20px;
+}
+.olpic-2 .imgcom .pricebtn .newprice span{
+    float: left;
+    margin-top: 3px;
+    width: 12px;
+    height: 16px;
+    font-size: 13px;
+}
+.olpic-2 .imgcom .pricebtn .discount{
+    float: right;
+}
+/* 以上是直播中间两张图的修饰 */
+.olpic-list{
+    float: left;
+}
+.olpic-list li{
+    float: left;
+    height: 390px;
+    margin-right: 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+.olpic-list li .olplist-pro{
+    width: 100%;
+    height: 230px;
+    background-color: rgba(245,229,202,.5);
+    border-radius: 8px 8px 0 0;
+}
+.olpic-list li .olplist-pro img{
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    transition: all 0.6s;
+}
+.olpic-list li a .comment{
+    position: relative;
+    margin:0 auto;
+    margin-top: -21px;
+    z-index: 3;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color:#ff3c6a;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1466349724'); /* IE9*/
+  src: url('iconfont.eot?t=1466349724#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1466349724') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1466349724') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1466349724#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon {
+  font-family:"iconfont" !important;
+  font-size:22px;
+  color:#ff3c6a;
+  font-style:normal;
+}
+.hrlist-pro span{
+    position: relative;
+    top: -117px;
+    left: 4px;
+    color:white;
+    font-size: 12px;
+}
+.number {
+    position: relative;
+    display: block;
+    top: -82px;
+    left: -5px;
+    font-family:"iconfont" !important;
+    font-size:25px;
+    color:#ff6600;
+    font-style:normal;
+}
+.prodesc{
+    height: 44px;
+    margin:15px auto;
+    color:#666;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+.pro-price{
+    height: 45px;
+    margin:0 auto;
+    background-color: #633ef1;
+    color:white;
+    line-height: 45px;
+    padding:0 10px;
+    border-radius: 5px;      
+}
+.pro-price h3{
+    float: left;
+    font-size: 19px;
+}
+.pro-price h3 span{
+    width: 12px;
+    height: 16px;
+    margin-top: 10px;
+    font-size: 9px;
+}
+.pro-price p{
+    float: right;
+    font-size: 13px;
+}
+/* 以上是直播下面左边列表部分修饰 */
+.hr{
+    width: 360px;
+    height: 390px;
+    background-color: white;
+    border-radius: 8px;
+}
+.hr-click-list{
+    width: 100%;
+    height: 54px;
+}
+.hr-click-list li{
+    float: left;
+    width: 180px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color:#666;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+/* 以上是直播下面右边列表部分修饰 */
+.hr-click-list .active-hrlist{
+    border-bottom: 2px solid #ff6600;
+    color:#ff6600;
+}
+ .hr-list{
+    width: 100%;
+    height: 335px;
+    overflow-y: scroll;
+    display: none;
+}
+.hr .hot-list{
+    display: block;
+}
+::-webkit-scrollbar{
+    width:5px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color: #aeacac;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+.hr-list li{
+    padding:14px 20px;
+    border-bottom: 1px solid #eee;
+}
+.hrlist-pro{
+    float: left;
+    width: 80px;
+    height: 80px;  
+}
+.hrlist-pro img{
+    width: 80px;
+    height: 80px;    
+}
+.hrlist-write{
+    float: right;
+    font-size: 13px;
+}
+.hrlist-write .hrlist-desc{
+    width: 234px;
+    height: 40px;
+    color:#666;
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+.hrlist-write .hrlist-price{
+    color:#ff6600;
+    margin-top: 6px;
+}
+.hrlist-write .hrlist-price span{
+    font-size: 9px;
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+}
+/* 以上是直播下面右边列表部分中热点推荐部分修饰 */
+/* 以上直播下面部分的修饰 */
+/* 以上是直播部分修饰 */
+.hbhcra{
+    width: 100%;
+    height: 155px;
+}
+.hbhcra li{
+    float: left;
+    height: 155px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.hbhcra li.mr{
+    margin-right: 0;
+}
+.hbhcra li h3{
+    height: 42px;
+    padding-left: 22px;
+    line-height: 42px;
+    font-size: 18px;
+    border-radius: 8px 8px 0 0;
+    color:white;
+}
+.hbhcra li:nth-child(1) h3{
+    background-color: #ed9377;
+}
+.hbhcra li:nth-child(2) h3{
+    background-color: #df7eff;
+}
+.hbhcra li:nth-child(3) h3{
+    background-color: #7ec0ff;
+}
+.hbhcra-list{
+    padding:14px 0 0 15px;
+}
+.hbhcra-list li{
+    float: left;
+    margin:6px;
+    height: 28px;
+    text-align: center;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.hbhcra-list li a{
+    font-size: 12px;   
+    height: 28px;
+    line-height: 28px;
+    color:#666;
+}
+.hbhcra-list li:hover a{
+    color:white;
+}
+.hbhcra-list1 li{    
+    border:1px solid #ed9377;
+}
+.hbhcra-list2 li{
+    border:1px solid #df7eff;
+}
+.hbhcra-list3 li{
+    border:1px solid #7ec0ff;
+}
+.hbhcra-list1 li:hover{
+    background-color: #ed9377;
+}
+.hbhcra-list2 li:hover{
+    background-color: #df7eff;
+}
+.hbhcra-list3 li:hover{
+    background-color: #7ec0ff;
+}
+/* 以上是热门品牌、热门分类及相关配件部分修饰 */
+.recommend{
+    width: 100%;
+    margin-top: 45px;
+}
+.recomtitle{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.recomtitle img{
+    width: 380px;
+    height: 50px;
+    margin:0 auto;
+}
+.recomtitle .more{
+    position: absolute;
+    right:0;
+    top: 5px;
+    width: 128px;
+    height: 38px;
+    border:2px solid #a38aff;
+    background-color: #4500d1;
+    text-align: center;
+    line-height: 38px;
+    color:white;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-size: 14px; 
+    cursor: pointer; 
+}
+.recompro-list-wrap{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.prev,.next{
+    font-family:"iconfont" !important;
+    font-size:25px;
+    color:white;
+    font-style:normal;
+    cursor: pointer;
+}
+.prevarr,.nextarr{
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 22px;
+    height: 70px;
+    background-color: #999999;
+    line-height: 70px;
+    text-align: center;
+}
+.prevarr{
+    left: 0;
+}
+.nextarr{
+    right:0;
+}
+.rlist{
+    margin-top: 15px;
+    float: left;
+}
+.rlist li{
+    float: left;
+    background-color: white;
+    margin-right: 5px;
+    padding-bottom: 15px;
+}
+.rlist li.recommr{
+    margin-right: 0;
+}
+.recompro{
+    width: 100%;
+}
+.recomdesc{
+    height: 46px;
+    line-height: 23px;
+    padding:0 18px;
+    font-size: 14px;
+    text-align: center;
+    color:#666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    margin-bottom: 16px;
+}
+.recomprice{
+    height: 35px;
+    font-size: 17px;
+    color:white;
+    text-align: center;
+    line-height:35px;
+    border-radius: 5px;
+    background-color: #633ef1; 
+    margin: 0 auto;
+}
+.recomprice span{
+    font-size: 9px;
+    width: 12px;
+    height: 14px;
+    margin-top: 8px;
+}
+.hotbrand-list li{
+    float: left;
+    width: 195.8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.hotbrand-list li img{
+    width: 100px;
+    height: 50px;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.hotbrand-list li p{
+    font-size: 12px;
+    color:#333;
+    text-align: center;
+}
+.hotbrand-list li:hover p{
+    color:#ff6600;
+}
+.recompro-list-6{
+    width: 2410px;
+}
+.recompro-list-6 .hotbrand-list{
+    float: left;
+}
+.video-recomtitle{
+    margin-top: 70px;
+}
+.video1-2{
+    background-color: white;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-left: 28px;
+    margin-bottom: 50px;
+}
+.video1-2 li{
+    float:left;
+    margin-right: 20px;
+    margin-bottom:15px; 
+}
+.video1-2 li a{
+    position:relative;
+}
+.video1-2 .video1-img{
+    overflow: hidden;
+}
+.video1-2 .video1-img img{
+    transition:all 1s;
+}
+.video1-2 .video1-img img:hover{
+    transform: scale(1.1,1.1);
+}
+.video-desc-playbtn{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height: 45px;
+    width: 370px;
+    background-color: rgba(0, 0, 0 ,.5)
+}
+.video-desc-playbtn .video-desc{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color:white;
+    margin-left: 15px;
+}
+.video-desc-playbtn .video-playbtn{
+    width: 60px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+/* 以上是各种推荐及视频部分 */
+
+@media(min-width:1250px){
+    .content{
+        width: 1200px;
+    }
+    .olgo-wrap{
+        width: 100%;
+        height: 240px;
+        padding-top: 30px;
+    }
+    .olgo{
+        width: 1210px;
+    }
+    .olgo li{
+        width: 201px;
+    }
+    .olgo-title{
+        font-size: 18px;
+    }
+    .olgo-go a:hover{   
+        color:#08d19d;
+    }
+    .olgo li img{
+        width: 201px;
+    }
+    .olgo li.olgo-active{    
+        width: 393px;
+    }
+    .olgo li.olgo-active img{   
+        width: 230px;
+    }
+    /* 以上是电脑K歌直播部分中go部分修饰 */
+    .bz{
+        width: 1200px;
+    }
+    .bz li img{
+        width: 390px;
+    }
+    /* 专业大平台部分修饰 */
+    .olpic{
+        width: 1200px;
+    }
+    .olpic-1 .img1 img{
+        width: 722px;
+    }
+    .olpic-1 .img2 img{
+        width: 467px;
+        margin-top: 33px;
+    }
+    /* 以上是直播上面两张图的修饰 */
+   
+    .olpic-2 .img1 img{
+        width: 595px;
+    }
+    .olpic-2 .img2 img{
+        width: 595px;
+    }
+    .olpic-2 .imgcom .playbtn{
+        width: 165px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 75px;
+    }
+    .olpic-2 .imgcom .playbtn img{
+        margin-top: 5px;
+    }
+    .olpic-2 .imgcom .playbtn .player{
+        font-size: 14px;
+    }
+    /* 以上是直播中间两张图的修饰 */
+    .olpic-list li{
+        width: 268px;
+    }
+    .olpic-list li .olplist-pro{
+        height: 230px;
+    }
+    .olpic-list li:hover .olplist-pro img{
+        transform: translateX(-15px);
+    }
+    .olpic-list li a .comment{
+        width: 226px;
+    }
+    .prodesc{
+        width: 226px;
+    }
+    .pro-price{
+        width: 206px;     
+    }
+    /* 以上是直播下面左边列表部分修饰 */
+    .hr{
+        float: right;
+    } 
+    /* 以上是直播下面右边列表部分中热点推荐部分修饰 */
+    /* 以上直播下面部分的修饰 */
+    /* 以上是直播部分修饰 */
+    .hbhcra li{
+        width: 390px;
+    }
+    .hbhcra-list li{
+        width: 78px;
+    }
+    .hbhcra-list1 li{    
+        border:1px solid #ed9377;
+    }
+    .hbhcra-list2 li{
+        border:1px solid #df7eff;
+    }
+    .hbhcra-list3 li{
+        border:1px solid #7ec0ff;
+    }
+    /* 以上是热门品牌、热门分类及相关配件部分修饰 */ 
+    .recompro-list{
+        width: 3600px;
+    }
+    .recompro-list-4{
+        width: 4800px;
+    }
+    .rlist{
+        width: 1200px;
+    }
+    .rlist li{
+        width: 195.8px;
+    }
+    .recompro img{
+        width: 160px;
+        height: 160px;
+        margin:20px 15px;
+        transition:all 0.3s;  
+    }
+    .recompro img:hover{
+        transform: translateX(5px)
+    }
+    .recomprice{
+        width: 170px;
+    }
+    .video1-2 li{ 
+        height:210px;
+    }
+    .video1-2 .video1-img{
+        width: 370px;
+        height: 210px;
+    }
+    .video1-2 .video1-img img{
+        width: 370px;
+        height: 210px;
+    }
+    .video-desc-playbtn{
+        width: 370px;
+    }
+    /* 以上是各种推荐及视频部分 */    
+ 
+}
+@media(max-width:1250px){
+    .content{
+        width: 990px;
+    }
+    .olgo-wrap{
+        width: 100%;
+        height: 240px;
+        padding-top: 30px;
+    }
+    .olgo{
+        width: 1000px;
+    }
+    .olgo li{
+        width: 166px;
+    }
+    .olgo-title{
+        font-size: 16px;
+    }
+    .olgo-go a:hover{   
+        color:#08d19d;
+    }
+    .olgo li img{
+        width: 163px;
+    }
+    .olgo li.olgo-active{    
+        width: 325px;
+    }
+    .olgo li.olgo-active img{   
+        width: 200px;
+    }
+    /* 以上是电脑K歌直播部分中go部分修饰 */
+    .bz{
+        width: 990px;
+    }
+    .bz li img{
+        width: 320px;
+    }
+    /* 专业大平台部分修饰 */
+    .olpic{
+        width: 990px;
+    }
+    .olpic-1 .img1 img{
+        width: 600px;
+    }
+    .olpic-1 .img2 img{
+        width: 380px;
+        margin-top: 28px;
+    }
+    /* 以上是直播上面两张图的修饰 */
+
+    .olpic-2 .img1 img{
+        width: 490px;
+    }
+    .olpic-2 .img2 img{
+        width: 490px;
+    }
+    .olpic-2 .imgcom .playbtn{
+        width: 126px;
+        height: 38px;
+        line-height: 38px;
+        bottom: 67px;
+    }
+    .olpic-2 .imgcom .playbtn img{
+        margin-top: 6px;
+    }
+    .olpic-2 .imgcom .playbtn .player{
+        font-size: 12px;
+    }
+    /* 以上是直播中间两张图的修饰 */
+    .olpic-list li{
+        width: 220px;
+    }
+    .olpic-list li .olplist-pro{
+        height: 220px;
+    }
+    .olpic-list li:hover .olplist-pro img{
+        transform: translateX(15px);
+    }
+    .olpic-list li a .comment{
+        width: 200px;
+    }
+    .prodesc{
+        width: 178px;
+    }
+    .pro-price{
+        width: 170px;      
+    }
+    /* 以上是直播下面左边列表部分修饰 */
+    .hr{
+        float: left;
+        margin-top: 15px;
+    }
+    /* 以上是直播下面右边列表部分中热点推荐部分修饰 */
+    /* 以上直播下面部分的修饰 */
+    /* 以上是直播部分修饰 */
+    .hbhcra li{
+        width: 320px;
+    }
+    .hbhcra-list li{
+        width: 60px;
+    }
+    .hbhcra-list1 li{    
+        border:1px solid #ed9377;
+    }
+    .hbhcra-list2 li{
+        border:1px solid #df7eff;
+    }
+    .hbhcra-list3 li{
+        border:1px solid #7ec0ff;
+    }
+    /* 以上是热门品牌、热门分类及相关配件部分修饰 */ 
+    .recompro-list{
+        width: 2970px;
+    }
+    .recompro-list-4{
+        width: 3960px;
+    }
+    .rlist{
+        width: 990px;
+    }
+    .rlist li{
+        width: 160.5px;
+    }
+    .recompro img{
+        width: 160.5px;
+        height: 160.5px; 
+    }
+    .recomprice{
+        width: 140px;
+    }
+    .video1-2 li{
+        height:168px;
+    }
+    .video1-2 .video1-img{
+        width: 297px;
+        height: 168px;
+    }
+    .video1-2 .video1-img img{
+        width: 297px;
+        height: 168px;
+    }
+    .video-desc-playbtn{
+        width: 297px;
+    }
+    /* 以上是各种推荐及视频部分 */
+}
+
+
+
+
